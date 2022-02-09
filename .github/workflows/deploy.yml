@@ -20,7 +20,7 @@ jobs:
         PASSPHRASE: ${{ secrets.PASSPHRASE }}
       with:
         source: "."
-        target: "/var/www/solidcat.me"
+        target: "/var/www/solidcat.me/testautopush"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
